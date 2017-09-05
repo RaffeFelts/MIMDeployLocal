@@ -12,7 +12,7 @@ Getting Started:
 8. Open an elevated Powershell ISE (at least PowerShell v4.0)
 9. Add your MIM Portal/SSPR Sites and AutomationRoot URL to the Local Intranet Security Zone 
 10. From the target MIM Server wack wack to the AutomationRoot
-11. Execute EnvironmentStore\Dev\Scripts\MIMDeploy\MIMDeploy.Initialize.ps1
+11. Execute EnvironmentStore\Dev\Scripts\MIMDeploy\MIMDeploy.Initialize.ps1 IMPORTANT: You must run the entire script, i.e. you cannot just select the content and hit 'Run Selection (F8)'
 12. Modify MIMDeploy.ConfigurationData.Ps1 and MIMDeploy.ConfigurationData.Creds.ps1 to match your Environment
 13. Once config files are properly populated Re-run MIMDeploy.Initialize.ps1
 14. Run regions of MIMDeploy.Main.ps1 one at a time
