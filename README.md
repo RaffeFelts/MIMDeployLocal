@@ -7,7 +7,7 @@ Getting Started:
 3. Create MIM Admin Account
 4. Add MIM Admin Account to Local admins of Target MIM Server.  Account should have perms to add Accounts/Groups to AD.
 5. Add MIM Admin to SQL instance as Sysadmin
-6. SQL should pre-populated with MIM Sync and Service DB and MIM Server SQL Jobs
+6. SQL should be pre-populated with MIM Sync and Service DB and MIM Server SQL Jobs
 7. Logon to Target MIM Server with MIM Admin
 8. Open an elevated Powershell ISE (at least PowerShell v4.0)
 9. Add your MIM Portal/SSPR Sites and AutomationRoot URL to the Local Intranet Security Zone 
